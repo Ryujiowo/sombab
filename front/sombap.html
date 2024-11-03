@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sombap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+    <nav>
+        <div class="inner">
+            <img src="image/솜밥.png" class="somimg" id="refreshImage" alt="logo">
+            <p class="name">sombap</p>
+        </div>
+    </nav>
+
+    <main>
+        <section class="category">
+            <div class="inner">
+                <div class="category-container">
+                    <p class="category-title">오늘의 한끼</p>
+                    <div class="category-list">
+                        <button class="category-item" id="korea">한식</button>
+                        <button class="category-item" id="china">중식</button>
+                        <button class="category-item" id="japan">일식</button>
+                        <button class="category-item" id="america">양식</button>
+                        <button class="category-item" id="isian">아시안</button>
+                        <button class="category-item" id="snack">분식</button>
+                        <button class="category-item" id="dessert">커피/디저트</button>
+                        <button class="category-item" id="night">야식</button>
+                        <button class="category-item" id="fast">간편식</button>
+                        <button class="category-item" id="etc">기타</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--카테고리-->
+        <div id="map" class="inner"></div>
+        <!--카카오지도-->
+    </main>
+
+    <!-- <script 
+        type="text/javascript" 
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1c537b57de7da88401d479b4cd53ce1c&libraries=services">
+    </script> -->
+    <script 
+        type="text/javascript" 
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1c537b57de7da88401d479b4cd53ce1c&libraries=services">
+    </script>
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js" 
+        integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer"
+    ></script>
+    <script src="axios_script.js"></script>
+</body>
+</html>

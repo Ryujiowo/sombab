@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'My_wife_writing';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/My_wife_writing.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media all and (min-width: 1024px){
+    .inner {
+        max-width: 1024px;
+        margin:0 auto;
+    }
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    /* background: #FBFAF8; */
+}
+
+html {
+    font-family: 'My_wife_writing';
+}
+
+body{
+    height: 100vh;
+    background: #FBFAF8;
+}
+
+
+.somimg {
+    display: block;
+    margin: auto;
+    width: 5%;
+    padding: 5px 0 0 0;
+}
+
+.name {
+    text-align: center;
+    color: #2C2C2A;
+    font-size: 1.2rem;
+    padding: 0 0 5px 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+}
+.category-container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.category-list {
+    width: 100%; /* 너비를 100%로 설정 */
+    max-width: 70vw; /* 최대 너비를 70%로 설정 */
+    margin: 0 auto; /* 수평 중앙 정렬 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+
+.category-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.category-item {
+    margin: 0;
+    width: 19%;
+    height: 2.5rem;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.6rem;
+    color: #2C2C2A;
+    margin: 0;
+  }
+
+.category-item:hover {
+    color: #E76081;
+    cursor: pointer;
+}
+/* .inner {
+    padding: 0 1.5rem;
+} */
+
+/* 카카오맵 css */
+#map {
+    flex-grow: 1;
+    margin: 30px auto;
+    width: 70%;
+    height: 70%;
+}
